@@ -1,6 +1,6 @@
-# Challenges from sololearn.com
+# Challenges from [sololearn.com](https://www.sololearn.com/)
 
-## Fruit Bowl
+## Fruit Bowl 🍎🍌🍏
 
 **Description:** You have a bowl on your counter with an even number of pieces of fruit in it. Half of them are bananas, and the other half are apples. You need 3 apples to make a pie.
 

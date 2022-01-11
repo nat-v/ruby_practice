@@ -1,6 +1,6 @@
-CANVAS_AND_BRUSHES = 40.0
+CANVAS_AND_BRUSHES = 40
 TAXES = 0.1
-PAINT = 5.0
+PAINT = 5
 
 loop do 
   puts "How many colors will you need to create a new masterpiece?"
@@ -15,9 +15,9 @@ loop do
   taxes_cost = (CANVAS_AND_BRUSHES + colors_cost) * TAXES
   total_cost = taxes_cost + CANVAS_AND_BRUSHES + colors_cost
 
-  puts "Alright, let's see... The canvas and brushes will cost #{CANVAS_AND_BRUSHES}, #{colors_amount} colors of paint will be 5.0 each, so for all colors you need to pay #{colors_cost}."
-  puts "Almost forgot about the taxes! They will be #{taxes_cost}."
-  puts "Total is #{total_cost}"
+  puts "Alright, let's see... The canvas and brushes will cost #{CANVAS_AND_BRUSHES}, #{colors_amount} colors of paint will be 5 each, so for all colors you need to pay #{colors_cost}."
+  puts "Almost forgot about the taxes! They will be #{taxes_cost.round}."
+  puts "Total is #{total_cost.round}"
 
   puts "Do you want to try another amount of colors?(Y/N)"
   try_again = gets.chomp.downcase

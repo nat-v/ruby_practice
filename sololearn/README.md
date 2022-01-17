@@ -31,3 +31,14 @@
 **Input:** An integer that represents the number of colors that you want to purchase for your project. 
 
 **Output:** A number that represents the cost of your purchase rounded up to the nearest whole number. 
+
+
+## Pig Latin ## 🐖🐷💬
+
+**Description:** You have two friends who are speaking Pig Latin to each other! Pig Latin is the same words in the same order except that you take the first letter of each word and put it on the end, then you add 'ay' to the end of that. ("road" = "oadray")  
+
+**Task:** Take a sentence in English and turn it into the same sentence in Pig Latin.
+
+**Input:** A string of the sentence in English that you need to translate into Pig Latin. (no punctuation or capitalization)
+
+**Output:** A string of the same sentence in Pig Latin.

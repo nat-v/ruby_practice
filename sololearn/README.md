@@ -33,7 +33,7 @@
 **Output:** A number that represents the cost of your purchase rounded up to the nearest whole number. 
 
 
-## Pig Latin ## 🐖🐷💬
+## Pig Latin 🐖🐷💬
 
 **Description:** You have two friends who are speaking Pig Latin to each other! Pig Latin is the same words in the same order except that you take the first letter of each word and put it on the end, then you add 'ay' to the end of that. ("road" = "oadray")  
 

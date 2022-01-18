@@ -7,10 +7,12 @@ loop do
     redo
   end
 
-  words = sentence.split(" ")
-  words.each do |w|
-    w.chars.rotate!
-    
+  words = sentence.split(" ").map { |w| w.chars.rotate!.join + "ay" }
+  puts words.join(" ")
+ 
+  puts "Do you want to try again?(Y/N)"
+  try_again = gets.chomp.downcase
+  if try_again != "y"
+    break
   end
-  puts words
 end
